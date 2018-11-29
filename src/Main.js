@@ -9,6 +9,7 @@ import {
 import Home from "./Home";
 import Stuff from "./Stuff";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 class Main extends Component {
     render() {
@@ -26,8 +27,12 @@ class Main extends Component {
                         <Route path="/stuff" component={Stuff} />
                         <Route path="/contact" component={Contact} />
                     </div>
+                    <Footer/>
                 </div>
+             
+                {/* <Footer/> */}
             </HashRouter>
+          
         );
     }
 }
